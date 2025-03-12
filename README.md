@@ -5,6 +5,7 @@
 
 * Language basics
 * Threading
+* Executing child processes
 * Memory management
 * Dynamic array and map
 * Linking with C static libraries
