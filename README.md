@@ -1,3 +1,25 @@
 # ODIN EXAMPLES
 ---
-This language looks interesting
+
+## What is being covered
+
+* Language basics
+* Threading
+* Memory management
+* Dynamic array and map
+* Linking with C static libraries
+* Linking with C shared libraries
+* Linking C programs with Odin shared libraries
+* TODO: Linking C programs with Odin static libraries (works only on windows)
+
+## Dependencies
+
+* Odin compiler/library
+* C compiler
+
+## Instructions
+
+* Build and run
+`
+./build-darwin.sh
+`
