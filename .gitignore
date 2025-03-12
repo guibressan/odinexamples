@@ -1,5 +1,5 @@
 **/*.swp
-**/*.c
+libadder/*.c
 **/*.o
 **/*.a
 **/*.dylib
