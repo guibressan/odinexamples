@@ -2,6 +2,8 @@
 ####################
 set -e
 ####################
+readonly RELDIR=$(dirname ${0})
+####################
 
 _build_odin_shared_lib() {
 	odin build \
@@ -33,6 +35,7 @@ _build_test() {
 }
 
 build() {
+	mkdir -p ${RELDIR}/out
 	_build_odin_shared_lib
 	_build_odin_static_lib
 	echo "Calling odin library from C"
